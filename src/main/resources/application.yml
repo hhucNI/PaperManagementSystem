@@ -1,0 +1,19 @@
+#spring:
+#  datasource:
+#    username: ecnu
+#    password: 662282815294ea095031294fe5957656
+#    url: jdbc:mysql://rm-uf6tav133he29he0x3o.mysql.rds.aliyuncs.com:3306/ecnueducation?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/papersys?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: NBY2000NBY
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    driver-class-name: com.mysql.jdbc.Driver
+
+
+#server:
+#  port: 9999
+#  max-http-header-size: 16KB
